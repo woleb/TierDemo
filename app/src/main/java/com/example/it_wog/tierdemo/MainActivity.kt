@@ -9,6 +9,11 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        var tier = AbstractTier
+        val waldi = TierHund (5, 30, "Waldi")
+        waldi.gibLaut()
+        waldi.gibLaut()
+        val mimi = TierCat ( 5, 25 , "Mimi")
+        mimi.gibLaut()
+        mimi.gibLaut()
     }
 }

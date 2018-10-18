@@ -2,8 +2,8 @@ package com.example.it_wog.tierdemo
 
 import android.util.Log
 
-//Vererbung von AbstractTier
-class Tier (alter: Int, speed: Int, name: String): AbstractTier(alter, speed, name) {
+//Vererbung von AbstractTier alle Funktionen müssen benutzt werden
+open class Tier (alter: Int, speed: Int, name: String): AbstractTier(alter, speed, name) {
 
     //Überschreiben der Funktione aus AbstractTier
     override fun aelter(neuesAlter: Int) {
